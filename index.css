@@ -84,3 +84,18 @@ header{
     color:#ffff;
 }
 
+input[type=range] {
+    -webkit-appearance: none;
+    background-color: #4ADF86;
+    height: 8px;
+    border-radius: 25px;
+    width: 40%;
+}
+
+input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background-color: #ffff;
+    width: 10px;
+    height: 20px;
+    border-radius: 25px;
+}
