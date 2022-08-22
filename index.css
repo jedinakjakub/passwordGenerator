@@ -32,6 +32,12 @@ p {
     font-family: Inter;
 }
 
+header{
+    width: 350px;
+    height: 80px;
+    margin-top: 100px;
+}
+
 #passwords {
     display: flex;
     justify-content: start;
@@ -49,6 +55,15 @@ p {
 
 #titleDown {
     color: #D5D4D8;
+}
+
+#sliderContainer {
+    color: #D5D4D8;
+    font-family: Inter;
+}
+
+.slider {
+    color: #4ADF86;
 }
 
 .passwordOutput{
@@ -69,13 +84,3 @@ p {
     color:#ffff;
 }
 
-#sliderContainer {
-    color: #D5D4D8;
-    font-family: Inter;
-}
-
-header{
-    width: 350px;
-    height: 80px;
-    margin-top: 100px;
-}
