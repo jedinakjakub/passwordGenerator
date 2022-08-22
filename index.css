@@ -1,0 +1,81 @@
+@font-face {
+    font-family: Karla;
+    src: url(fonts/Karla.ttf);
+}
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter.ttf);
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    align-items: center;
+    background: #10B981;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    color: #ffff;
+    margin: 80px 0 40px 0;
+    font-family: Inter;
+}
+
+h1 {
+    font-family: Karla;
+    font-weight: bold;
+}
+
+p {
+    font-family: Inter;
+}
+
+#passwords {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-top: 2px solid #2F3E53;
+}
+
+#container{
+    width: 550px;
+    height: 550px;
+    background: #1F2937;
+    padding: 50px;
+    border-radius: 25px;
+}
+
+#titleDown {
+    color: #D5D4D8;
+}
+
+.passwordOutput{
+    margin: 50px 40px 0 0;
+    background-color: #273549;
+    padding: 6px;
+    border-radius: 5px;
+    color:#55F991;
+    width: 220px;
+    text-align: center;
+    font-family: Inter;
+
+}
+.textGreen {
+    color: #4ADF86;
+}
+.textWhite {
+    color:#ffff;
+}
+
+#sliderContainer {
+    color: #D5D4D8;
+    font-family: Inter;
+}
+
+header{
+    width: 350px;
+    height: 80px;
+    margin-top: 100px;
+}
